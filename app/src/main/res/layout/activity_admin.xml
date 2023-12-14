@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/foodshare"
+    android:scaleType="centerCrop">
+
+    <!-- Other layout elements -->
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_donors_address"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:text="Donors Address"
+        android:textSize="24sp"
+        android:layout_marginTop="20dp"
+        android:background="#daa520" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_request_received"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:text="Request Received"
+        android:textSize="24sp"
+        android:layout_marginTop="20dp"
+        android:background="#a52a2a"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_Logout"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:text="Logout"
+        android:textSize="24sp"
+        android:layout_marginTop="20dp" />
+
+
+</LinearLayout>

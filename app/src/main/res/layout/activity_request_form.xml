@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/foodshare"
+    android:scaleType="centerCrop"
+    tools:context=".RequestFormActivity">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:textColorHint="#000000"/>
+
+    <EditText
+        android:id="@+id/etDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etName"
+        android:layout_marginTop="16dp"
+        android:hint="Enter The Description"
+        android:textColorHint="#000000"/>
+
+    <EditText
+        android:id="@+id/etMembers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etDescription"
+        android:layout_marginTop="16dp"
+        android:hint="Enter Number Of Members"
+        android:textColorHint="#000000"/>
+
+    <EditText
+        android:id="@+id/etAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etMembers"
+        android:layout_marginTop="16dp"
+        android:hint="Enter Your Address"
+        android:textColorHint="#000000"/>
+
+    <EditText
+        android:id="@+id/etPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etAddress"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:textColorHint="#000000"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSubmitRequest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etPhoneNumber"
+        android:layout_marginTop="16dp"
+        android:text="Submit Request" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnBackToUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSubmitRequest"
+        android:layout_marginTop="16dp"
+
+        android:text="Back to User"/>
+
+</RelativeLayout>

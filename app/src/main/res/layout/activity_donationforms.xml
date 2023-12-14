@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/mm"
+    android:scaleType="centerCrop"
+    tools:context=".donationforms">
+
+    <EditText
+        android:id="@+id/editTextFullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Full name"
+        android:background="#ffe4b5"
+    android:textColor="#000000"
+    />
+
+    <EditText
+        android:id="@+id/editTextFoodName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextFullName"
+        android:layout_marginTop="16dp"
+        android:hint="Enter the Food name"
+        android:background="#ffe4b5"
+        android:textColor="#000000"
+        />
+
+    <EditText
+        android:id="@+id/editTextAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextFoodName"
+        android:layout_marginTop="16dp"
+        android:hint="Enter Your address"
+        android:background="#ffe4b5"
+        android:textColor="#000000"
+        />
+
+    <EditText
+        android:id="@+id/editTextArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextAddress"
+        android:layout_marginTop="16dp"
+        android:hint="Enter Your area"
+        android:background="#ffe4b5"
+        android:textColor="#000000"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextArea"
+        android:layout_marginTop="16dp"
+        android:text="Submit"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnBackToUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSubmit"
+        android:layout_marginTop="16dp"
+        android:text="Back to User"/>
+
+</RelativeLayout>

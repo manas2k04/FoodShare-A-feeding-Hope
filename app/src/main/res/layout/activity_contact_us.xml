@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/foodshare"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/phoneNumber1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Number 1"
+        android:textSize="40sp"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/phoneNumber2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Number 2"
+        android:textSize="40sp"
+    android:layout_below="@id/phoneNumber1"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/email1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email 1"
+        android:textSize="40sp"
+    android:layout_below="@id/phoneNumber2"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/email2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email 2"
+        android:textSize="40sp"
+    android:layout_below="@id/email1"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="20dp"/>
+</RelativeLayout>

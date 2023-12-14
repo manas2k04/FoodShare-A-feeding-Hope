@@ -1,0 +1,53 @@
+<!-- activity_history.xml -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Donation Details -->
+            <TextView
+                android:id="@+id/donationDetailsTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:maxLines="100"
+                android:scrollbars="vertical"
+                android:background="@drawable/donor"/>
+
+            <!-- Request Details -->
+            <TextView
+                android:id="@+id/requestDetailsTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:maxLines="100"
+                android:scrollbars="vertical"
+                android:layout_below="@id/donationDetailsTextView"/>
+
+            <!-- Add other UI elements as needed -->
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <!-- Back Button -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/backButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:text="Back"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:background="#000000"/>
+
+</RelativeLayout>

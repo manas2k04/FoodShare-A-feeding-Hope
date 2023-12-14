@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MainActivity</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="click_to_login">Click to login</string>
+    <string name="click_to_register">Click to register</string>
+    <string name="food_share">Food Share!</string>
+    <string name="logout">logout</string>
+    <string name="user_details" />
+    <string name="donate">Donate</string>
+    <string name="donater">Donate</string>
+    <string name="Profile">Profile</string>
+    <string name="Reward_points">Reward Points</string>
+    <string name="your_reward_points">Your Reward Points</string>
+    <string name="default_web_client_id" translatable="false">626745293544-hd1plim5oj2hkmnfcsngfkff96aa2uh7.apps.googleusercontent.com</string>
+</resources>
